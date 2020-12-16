@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@keyframes move {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+
+.hero .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 10vh;
+  width: 95%;
+  margin: auto;
+}
+
+.hero .navbar .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 20%;
+}
+
+.hero .navbar .icons .fas {
+  color: #fff;
+}
+
+.hero .navbar .icons .icon {
+  width: 35px;
+  height: 35px;
+  background-color: #5023e7;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  padding: 3px;
+  -webkit-transition: all ease-in-out 0.35s;
+  transition: all ease-in-out 0.35s;
+}
+
+.hero .navbar .icons .icon:hover {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all ease-in-out 0.35s;
+  transition: all ease-in-out 0.35s;
+}
+
+.hero .navbar .menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 10vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .navbar .menu a {
+  color: #000;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero .navbar .menu a:link {
+  text-decoration: none;
+}
+
+.hero .navbar .menu a:hover {
+  color: #5023e7;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero .navbar .menu .fas {
+  padding: 15px;
+}
+
+.hero .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero .main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .main .left b {
+  color: #6e48ec;
+}
+
+.hero .main .left h1 {
+  width: 100%;
+  font-size: 60px;
+  color: #000;
+  font-weight: 800;
+}
+
+.hero .main .left button {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #5023e7;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.25s;
+  transition: all ease-in 0.25s;
+}
+
+.hero .main .left button:hover {
+  width: 35%;
+  -webkit-transition: all ease-in 0.25s;
+  transition: all ease-in 0.25s;
+}
+
+.hero .main .right img {
+  width: 500px;
+  -webkit-animation: move 3s linear infinite;
+          animation: move 3s linear infinite;
+}
+
+.hero .nav_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10vh;
+  width: 95%;
+  margin: auto;
+}
+
+.hero .nav_bottom .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero .nav_bottom .left:hover {
+  color: #5023e7;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  -webkit-transform: translateX(-5%);
+          transform: translateX(-5%);
+}
+
+.hero .nav_bottom .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 7%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .nav_bottom .middle .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #5023e7;
+  border-radius: 20px;
+}
+
+.hero .nav_bottom .middle .outline {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border: 1px solid #5023e7;
+  border-radius: 20px;
+}
+
+.hero .nav_bottom .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero .nav_bottom .right:hover {
+  color: #5023e7;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  -webkit-transform: translateX(5%);
+          transform: translateX(5%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+/*# sourceMappingURL=style.css.map */
